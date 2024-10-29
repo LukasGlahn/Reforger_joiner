@@ -14,7 +14,7 @@ def get_color(cordinat):
 def has_color_change(color):
     new_color = get_color((660, 300))
     if  new_color == color:
-        print("the color not has change")
+        print("the color has not change")
         return False
     else:
         print("the color has change")
